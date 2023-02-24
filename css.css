@@ -1,0 +1,92 @@
+.secondDiv{
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.thirdDiv{
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+.third{
+    background-color: #c3cdfc;
+}
+
+.projekt1{
+    background-color: #becafd;
+}
+
+.projektCiemny{
+    background-color: rgb(27, 27, 27);
+}
+
+.navbar{
+    background-color: #EEF1FF;
+}
+
+.kartaLight{
+    background-color: rgb(211, 211, 250);
+}
+
+.kartaDark{
+    background-color: rgb(33,37,41);
+    border-color: rgb(245, 74, 74);
+}
+
+body, .motyw{
+    background-color: #d2daff;
+}
+
+.strzalkaBlack{
+    color: black;
+}
+
+.biMotyw{
+    color: white;
+}
+
+.main{
+    /* background-color: rgb(197, 180, 180); */
+    background-color: #EEF1FF;
+}
+
+.opis{
+    color: black;
+    text-align: center;
+}
+
+
+.form-control, .input-group-text{
+    border-color: #B1B2FF;
+}
+
+.floating{
+    background-color: rgb(34, 34, 34);
+    border-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.floating:focus{
+    background-color:  rgb(34, 34, 34);
+    color: white;
+}
+
+.tlo{
+    background-color: rgb(33,37,41);
+      
+}
+
+.naviLight{
+    background-color: rgba(210, 218, 255, 0.50);
+}
+
+.naviDark{
+    background-color: rgba(33,37,41, 0.50);
+}
+
+.darkP{
+    color: white;
+    text-align: center;
+}
+
+a{text-decoration: none;}

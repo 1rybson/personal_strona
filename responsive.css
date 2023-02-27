@@ -1,7 +1,18 @@
-@media only screen and (max-width: 1000px) {
-    #imie_nazwisko { font-size: 7.9em; }
-}
+@media only screen and (max-width: 425px) {
+    #imie_nazwisko{
+        font-size: 5em;
+        margin-left: 0px;
+    }
 
-@media only screen and (max-width: 680px) {
-    #imie_nazwisko { font-size: 5em; }
+    #zainteresowania{
+        margin-left: 0px;
+        padding: 30px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        display:inline-block;
+    }
+
+    #projekt{
+        margin-bottom: 20px;
+    }
 }

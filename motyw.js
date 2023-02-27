@@ -100,31 +100,31 @@ function zmianaKlasy(){
   const element29 = document.querySelector('.projekt1');
   element29.classList.toggle('projektCiemny');
 
-  // const element29 = document.querySelector('.uno');
-  // element29.classList.toggle('floating')
+  const element36 = document.querySelector('.uno');
+  element36.classList.toggle('floating')
 
-  // const element30 = document.querySelector('.dos');
-  // element30.classList.toggle('floating')
+  const element30 = document.querySelector('.dos');
+  element30.classList.toggle('floating')
 
-  // if(document.querySelector('.tres')==null){
-  //   console.log(".tres nie istnieje");
-  // }else{
-  //   const element31 = document.querySelector('.tres');
-  //   element31.classList.toggle('floating')
-  // }
+  if(document.querySelector('.tres')==null){
+    console.log(".tres nie istnieje");
+  }else{
+    const element31 = document.querySelector('.tres');
+    element31.classList.toggle('floating')
+  }
 
-  // if(document.querySelector('.quattro')==null){
-  //   console.log(".quattro nie istnieje");
-  // }else{
-  //   const element32 = document.querySelector('.quattro');
-  //   element32.classList.toggle('floating') 
-  // // }
+  if(document.querySelector('.quattro')==null){
+    console.log(".quattro nie istnieje");
+  }else{
+    const element32 = document.querySelector('.quattro');
+    element32.classList.toggle('floating') 
+  }
 
-  // const element33 = document.querySelector('.login');
-  // element33.classList.toggle('bg-dark');
+  const element33 = document.querySelector('.login');
+  element33.classList.toggle('bg-dark');
 
-  // const element34 = document.querySelector('.login');
-  // element34.classList.toggle('text-light');
+  const element34 = document.querySelector('.login');
+  element34.classList.toggle('text-light');
 
 
 

@@ -52,12 +52,12 @@
     </div>
 </div>
     <div class="main shadow-lg p-5 w-100 h-100">
-        <b><p id="imie_nazwisko" class="mb-0 ms-5" style="font-family: 'Space Mono', monospace;">MICHAŁ<br>
+        <b><p id="imie_nazwisko" class="mb-0" style="font-family: 'Space Mono', monospace;">MICHAŁ<br>
             RYBA-<br>
             RSKI</p></b>
         
         <center>
-            <a href="#dwa"><i class="bi bi-arrow-down strzalkaBlack strzalka" style="font-size: 150%;"></i></a>
+            <a href="#dwa"><i class="bi bi-arrow-down strzalkaBlack strzalka" id="strzalka"></i></a>
         </center>
     </div>
     <div class="second shadow-lg p-5 w-100 h-auto text-center">
@@ -70,7 +70,7 @@
             </p><br><Br>
             <div class="container text-center text-wrap">
                 <div class="row">
-                  <div class="col shadow-lg rounded-4 p-3 me-3 karta1 kartaLight">
+                  <div class="col shadow-lg rounded-4 karta1 kartaLight" id="zainteresowania">
                     <h4>MOTORYZACJA</h4>
                     <p>Motoryzacja zawsze była częścią mojego życia. Od dziecka zbierałem małe samochodziki i bawiłem się
                         nimi całymi dniami. Dużym wpływem na obecne do dzisiaj zainteresowanie były filmy The Fast
@@ -78,14 +78,14 @@
                         oraz kulturze japońskiej.
                     </p>
                   </div>
-                  <div class="col shadow-lg rounded-4 p-3 me-3 karta2 kartaLight">
+                  <div class="col shadow-lg rounded-4 karta2 kartaLight" id="zainteresowania">
                     <h4>MUZYKA</h4>
                     <p>Muzyka jest dla mnie bardzo ważna i jest nieodłączą częścia mojego życia.
                         Słuchanie mojej ulubionej muzyki lub odkrywanie nowej to nie tylko rozrywka, ale również 
                         sposób na relaks. Odpowiednia muzyka potrafi zmienić mój humor i pomaga mi 
                     </p>
                   </div>
-                  <div class="col shadow-lg rounded-4 p-3 me-3 karta3 kartaLight">
+                  <div class="col shadow-lg rounded-4 karta3 kartaLight" id="zainteresowania">
                     <h4>PODRÓŻE</h4>
                     <p>Mimo że nie miałem zbyt wielu okazji do podróżowania, uważam, że zwiedzanie innych krajów 
                         i kontynentów jest bardzo interesujące. Poznawanie nowych kultur, tradycji i zwyczajów, 
@@ -94,7 +94,7 @@
                         by w przyszłości zobaczyć jak najwięcej miejsc na świecie. Przede wszystkim Japonię.
                     </p>
                   </div>
-                  <div class="col shadow-lg rounded-4 p-3 karta4 kartaLight">
+                  <div class="col shadow-lg rounded-4 karta4 kartaLight" id="zainteresowania">
                     <h4>MODA</h4>
                     <p>Interesuję się również modą, a w szczególności streetwear'em. Cenię sobie wygodę i oryginalność, 
                         które w mojej opinii są charakterystyczne dla tego stylu. Lubie ekperymentować 
@@ -106,14 +106,14 @@
                 </div>
                 </div>
 
-            <a href="#trzy"><i class="bi bi-arrow-down strzalkaBlack strzalka2" style="font-size: 150%;"></i></a>
+            <a href="#trzy"><i class="bi bi-arrow-down strzalkaBlack strzalka2" id="strzalka"></i></a>
 
     </div>
     <div class="projekty third shadow-lg p-5 w-100 h-100 text-wrap">
         <a name="trzy"></a><br><br>
         <h2 class="text-center">PROJEKTY</h2>
         <div>
-        <div class="projekt1 shadow-lg p-5 h-auto rounded-3" style="width:40%;">
+        <div class="projekt1 shadow-lg p-5 h-auto rounded-3" id="projekt">
             <h2>Strona logowania i rejestracji</h2>
             <p>
                 Prosta strona logowania oraz rejestracji.<br>
@@ -127,21 +127,7 @@
                 Użytkownik zostaje poinformowany jeżeli wpisał złe hasło lub zły adres E-Mail.
             </p>
          </div>
-         <div class="projekt1 shadow-lg p-5 h-auto rounded-3" style="width:40%;">
-            <h2>Strona logowania i rejestracji</h2>
-            <p>
-                Prosta strona logowania oraz rejestracji.<br>
-                Strony te mają połączenie z bazą danych więc zapewniona jest funkcjonalność kont.<br>
-                Hasła w bazie danych są automatycznie szyfrowane.<br>
-                Użytkownik ma do wyboru 2 motywy strony:
-                <ul>
-                    <li>jasny - biało-błękitny</li>
-                    <li>ciemny - szaro-granatowy</li>
-                </ul>
-                Użytkownik zostaje poinformowany jeżeli wpisał złe hasło lub zły adres E-Mail.
-            </p>
-         </div>
-            <!--<div class="login shadow-lg p-5 rounded-5 w-25 border border-3 border-primary">
+            <div class="login shadow-lg p-5 rounded-5 border border-3 border-primary">
                 <h3 class="text-center">ZALOGUJ</a></h3>
                 
                 <form>
@@ -170,7 +156,7 @@
         
                 <a href="#">Nie pamiętasz hasła?</a>
         
-            </div>  -->
+            </div> 
     </div>
     </div>
     <!-- <a href="#jeden">Powrót do góry</a> -->

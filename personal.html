@@ -25,7 +25,7 @@
             <div class="col">
                 <div class="d-inline-flex float-start mt-2" style="width: 100px;">
                     <div class="btn-group-sm">
-                        <button class="btn btn-outline-light dropdown-toggle drop text-dark" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                        <button class="btn btn-outline-light dropdown-toggle drop text-dark ms-2" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                             Menu
                         </button>
                         <ul class="dropdown-menu ciemne-menu">
@@ -51,42 +51,43 @@
         </div>
     </div>
 </div>
-    <div class="main shadow-lg p-5 w-100 h-100">
+    <div class="main shadow-lg" id="pierwszy">
         <b><p id="imie_nazwisko" class="mb-0" style="font-family: 'Space Mono', monospace;">MICHAŁ<br>
             RYBA-<br>
             RSKI</p></b>
+        <!-- <img src="zdjecie.jpg" alt="zdjecie" id="zdjecie"> -->
         
         <center>
             <a href="#dwa"><i class="bi bi-arrow-down strzalkaBlack strzalka" id="strzalka"></i></a>
         </center>
     </div>
-    <div class="second shadow-lg p-5 w-100 h-auto text-center">
+    <div class="second shadow-lg p-2 w-100 h-auto text-center">
         <a name="dwa"></a><br><br>
-            <h2>O mnie</h2>
-            <p>
+            <h2 id="tytul">O mnie</h2>
+            <p id="bio">
                 Jestem uczniem technikum na profilu informatycznym.<br>
                 W branży informatycznej skupiam się na projektowaniu i programowaniu<br>
                  stron internetowych, lecz moje zainteresowania nie kończą się tylko na tym.
             </p><br><Br>
-            <div class="container text-center text-wrap">
+            <div class="container-fluid text-center text-wrap" id="bioDiv">
                 <div class="row">
-                  <div class="col shadow-lg rounded-4 karta1 kartaLight" id="zainteresowania">
-                    <h4>MOTORYZACJA</h4>
+                  <div class="col shadow-lg rounded-4 karta1 kartaLight" id="zainteresowaniaLewy">
+                    <h4 id="temat">MOTORYZACJA</h4>
                     <p>Motoryzacja zawsze była częścią mojego życia. Od dziecka zbierałem małe samochodziki i bawiłem się
                         nimi całymi dniami. Dużym wpływem na obecne do dzisiaj zainteresowanie były filmy The Fast
                         and The Furious, a głównie część Tokyo Drift. Dzięki temu filmowi zakochałem się w motoryzacji
                         oraz kulturze japońskiej.
                     </p>
                   </div>
-                  <div class="col shadow-lg rounded-4 karta2 kartaLight" id="zainteresowania">
-                    <h4>MUZYKA</h4>
+                  <div class="col shadow-lg rounded-4 karta2 kartaLight" id="zainteresowania1">
+                    <h4 id="temat">MUZYKA</h4>
                     <p>Muzyka jest dla mnie bardzo ważna i jest nieodłączą częścia mojego życia.
                         Słuchanie mojej ulubionej muzyki lub odkrywanie nowej to nie tylko rozrywka, ale również 
                         sposób na relaks. Odpowiednia muzyka potrafi zmienić mój humor i pomaga mi 
                     </p>
                   </div>
-                  <div class="col shadow-lg rounded-4 karta3 kartaLight" id="zainteresowania">
-                    <h4>PODRÓŻE</h4>
+                  <div class="col shadow-lg rounded-4 karta3 kartaLight" id="zainteresowania2">
+                    <h4 id="temat">PODRÓŻE</h4>
                     <p>Mimo że nie miałem zbyt wielu okazji do podróżowania, uważam, że zwiedzanie innych krajów 
                         i kontynentów jest bardzo interesujące. Poznawanie nowych kultur, tradycji i zwyczajów, 
                         odkrywanie nieznanych miejsc i smaków to dla mnie fascynujące doświadczenie. 
@@ -94,13 +95,13 @@
                         by w przyszłości zobaczyć jak najwięcej miejsc na świecie. Przede wszystkim Japonię.
                     </p>
                   </div>
-                  <div class="col shadow-lg rounded-4 karta4 kartaLight" id="zainteresowania">
-                    <h4>MODA</h4>
+                  <div class="col shadow-lg rounded-4 karta4 kartaLight" id="zainteresowaniaPrawy">
+                    <h4 id="temat">MODA</h4>
                     <p>Interesuję się również modą, a w szczególności streetwear'em. Cenię sobie wygodę i oryginalność, 
                         które w mojej opinii są charakterystyczne dla tego stylu. Lubie ekperymentować 
                         z różnymi elementami garderoby i tworzyć ciekawe kombinacje. Śledzę też nowe trendy w modzie i
                         inspiruję się stylizacjami innych osób. Dla mnie moda to nie tylko sposób na ubieranie się, 
-                        ale też wyraz kreatywności i osobowości.
+                        ale też wyraz osobowości.
                     </p>
                   </div>
                 </div>
@@ -109,12 +110,12 @@
             <a href="#trzy"><i class="bi bi-arrow-down strzalkaBlack strzalka2" id="strzalka"></i></a>
 
     </div>
-    <div class="projekty third shadow-lg p-5 w-100 h-100 text-wrap">
+    <div class="projekty third shadow-lg p-4 w-100 h-100 text-wrap">
         <a name="trzy"></a><br><br>
-        <h2 class="text-center">PROJEKTY</h2>
+        <h2 class="text-center" id="tytul">PROJEKTY</h2><br>
         <div>
-        <div class="projekt1 shadow-lg p-5 h-auto rounded-3" id="projekt">
-            <h2>Strona logowania i rejestracji</h2>
+        <div class="projekt1 shadow-lg h-auto rounded-3" id="projekt">
+            <h2 id="tytul_projektu">Strona logowania i rejestracji</h2>
             <p>
                 Prosta strona logowania oraz rejestracji.<br>
                 Strony te mają połączenie z bazą danych więc zapewniona jest funkcjonalność kont.<br>
@@ -126,8 +127,8 @@
                 </ul>
                 Użytkownik zostaje poinformowany jeżeli wpisał złe hasło lub zły adres E-Mail.
             </p>
-         </div>
-            <div class="login shadow-lg p-5 rounded-5 border border-3 border-primary">
+        </div><br><br>
+            <div class="login shadow-lg p-5 rounded-5 border border-3 border-primary" id="logowanie">
                 <h3 class="text-center">ZALOGUJ</a></h3>
                 
                 <form>
@@ -156,7 +157,7 @@
         
                 <a href="#">Nie pamiętasz hasła?</a>
         
-            </div> 
+            </div> <br><br>
     </div>
     </div>
     <!-- <a href="#jeden">Powrót do góry</a> -->

@@ -21,7 +21,7 @@
 }
 
 .projektCiemny{
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(40, 40, 40);
 }
 
 .navbar{
@@ -37,8 +37,12 @@
     border-color: rgb(245, 74, 74);
 }
 
-body, .motyw{
+body{
     background-color: #d2daff;
+}
+
+.motyw{
+    background-color: #b8c4f8;
 }
 
 .strzalkaBlack{

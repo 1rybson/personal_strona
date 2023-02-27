@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1000px) {
-    #imie_nazwisko { font-size: 7.8em; }
+    #imie_nazwisko { font-size: 1em; }
 }
 
 @media only screen and (max-width: 680px) {
-    #imie_nazwisko { font-size: 5.5em; }
+    #imie_nazwisko { font-size: 1em; }
 }

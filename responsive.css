@@ -6,7 +6,7 @@
     }
 
     #imie_nazwisko{
-        font-size: 17.3em;
+        font-size: 16.8em;
         margin-left: 50px;
         /* position: absolute; */
     }
@@ -16,15 +16,15 @@
     }
 
     #tytul{
-        font-size: 3.2em;
+        font-size: 3em;
     }
 
     #bio{
-        font-size: 2.7em;
+        font-size: 2.5em;
     }
 
     #bioDiv{
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     #zainteresowaniaLewy, #zainteresowaniaPrawy, #zainteresowania1, #zainteresowania2{
@@ -57,7 +57,7 @@
 
     #projekt{
         padding: 50px;
-        font-size: 2.5em;
+        font-size: 2.2em;
         margin-bottom: 50px;
     }
 
@@ -66,7 +66,7 @@
     }
 
     #logowanie{
-        width: 25%;
+        width: 50%;
     }
 
 
@@ -79,16 +79,29 @@
         /* position: relative; */
     }
 
+    
+
     #imie_nazwisko{
         font-size: 13em;
         margin-left: 50px;
         /* position: absolute; */
     }
 
-    /* #zdjecie{
-        width: 160%;
-        height: auto;
-    } */
+    #tytul{
+        font-size: 2em;
+    }
+
+    #temat{
+        font-size: 1em;
+    }
+
+    #tytul_projektu{
+        font-size: 1.2em;
+    }
+
+    #logowanie{
+        width: 25%;
+    }
 
     #bio{
         font-size: 1.5em;
@@ -119,7 +132,7 @@
 
     #projekt{
         padding: 30px;
-        font-size: 1.7em;
+        font-size: 1.3em;
     }
 
 
@@ -132,46 +145,60 @@
         /* position: relative; */
     }
 
+    #strzalka{
+        font-size: 2em;
+    }
+
     #imie_nazwisko{
-        font-size: 9.5em;
+        font-size: 7.35em;
         margin-left: 28px;
         /* position: absolute; */
     }
 
-    /* #zdjecie{
-        width: 160%;
-        height: auto;
-    } */
-
     #bio{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     #bioDiv{
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
-    #zainteresowania, #zainteresowania1, #zainteresowania2{
-        margin-left: 0px;
+    #zainteresowaniaLewy, #zainteresowaniaPrawy, #zainteresowania1, #zainteresowania2{
+        margin-left: 10px;
         padding: 15px;
-        margin-right: 0px;
+        margin-right: 10px;
         margin-bottom: 20px;
         display:inline-block;
 
     }
 
-    #zainteresowania1, #zainteresowania2{
-        margin-right: 10px;
-        margin-left: 10px;
+    #zainteresowaniaLewy{
+        margin-left: 20px;
     }
 
-    #zainteresowania{
-        margin-right: 10px;
-        margin-left: 10px;
+    #zainteresowaniaPrawy{
+        margin-right: 20px;
     }
-
+    
     #projekt{
         padding: 30px;
+        font-size: 1em;
+    }
+
+    #tytul{
+        font-size: 2em;
+    }
+
+    #temat{
+        font-size: 1em;
+    }
+
+    #tytul_projektu{
+        font-size: 1.2em;
+    }
+
+    #logowanie{
+        width: 100%;
     }
 
 
@@ -211,15 +238,10 @@
     }
 
     #imie_nazwisko{
-        font-size: 7.5em;
+        font-size: 7.35em;
         margin-left: 28px;
         /* position: absolute; */
     }
-
-    /* #zdjecie{
-        width: 160%;
-        height: auto;
-    } */
 
     #zainteresowaniaLewy, #zainteresowaniaPrawy, #zainteresowania1, #zainteresowania2{
         margin-left: 0px;
@@ -241,7 +263,7 @@
     }
 
     #projekt{
-        padding: 30px;
+        padding: 27px;
         font-size: 1em;
     }
 
@@ -405,11 +427,6 @@
         margin-left: 20px;
         /* position: absolute; */
     }
-
-    /* #zdjecie{
-        width: 160%;
-        height: auto;
-    } */
 
     #zainteresowaniaLewy, #zainteresowaniaPrawy, #zainteresowania1, #zainteresowania2{
         padding: 20px;

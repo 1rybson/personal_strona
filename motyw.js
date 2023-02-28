@@ -6,125 +6,146 @@ function zmianaKlasy(){
   const element = document.querySelector('.demo');
   element.classList.toggle('tlo');
 
-  // const element5 = document.querySelector('.main');
-  // element5.classList.toggle('gradient');
+  const element1 = document.querySelector('.main');
+  element1.classList.toggle('bg-dark');
 
-  const element7 = document.querySelector('.main');
-  element7.classList.toggle('bg-dark');
+  const element2 = document.querySelector('.main');
+  element2.classList.toggle('text-light');
+  
+  const element3 = document.querySelector('.slonce');
+  element3.classList.toggle('biMotyw');
+  
+  const element4 = document.querySelector('.ksiezyc');
+  element4.classList.toggle('biMotyw');
+  
+  const element5 = document.querySelector('.mr');
+  element5.classList.toggle('text-light');
 
-  const element8 = document.querySelector('.main');
-  element8.classList.toggle('text-light');
+  const element6 = document.querySelector('.navi');
+  element6.classList.toggle('naviLight');
 
-  const element15 = document.querySelector('.slonce');
-  element15.classList.toggle('biMotyw');
+  const element7= document.querySelector('.navi');
+  element7.classList.toggle('naviDark');
 
-  const element16 = document.querySelector('.ksiezyc');
-  element16.classList.toggle('biMotyw');
-
-  if(document.querySelector('.opis')==null){
-    console.log(".opis nie istnieje");
-  }else{
-    const element17 = document.querySelector('.opis');
-    element17.classList.toggle('darkP');
-  }
-
-  const element2 = document.querySelector('.drop');
-  element2.classList.toggle('btn-outline-light');
-
-  const element3 = document.querySelector('.drop');
-  element3.classList.toggle('btn-dark');
-
-  const element6 = document.querySelector('.drop');
-  element6.classList.toggle('text-dark');
+  const element8 = document.querySelector('.drop');
+  element8.classList.toggle('btn-outline-light');
 
   const element9 = document.querySelector('.drop');
-  element9.classList.toggle('text-light');
+  element9.classList.toggle('btn-dark');
 
-  const element4 = document.querySelector('.ciemne-menu');
-  element4.classList.toggle('dropdown-menu-dark');
+  const element10 = document.querySelector('.drop');
+  element10.classList.toggle('text-dark');
+  
+  const element11 = document.querySelector('.drop');
+  element11.classList.toggle('text-light');
+  
+  const element12 = document.querySelector('.ciemne-menu');
+  element12.classList.toggle('dropdown-menu-dark');
+  
+  const element13 = document.querySelector('.strzalka');
+  element13.classList.toggle('strzalkaBlack');
+  
+  const element14 = document.querySelector('.strzalka');
+  element14.classList.toggle('biMotyw');
+  
+  const element15 = document.querySelector('.strzalka2');
+  element15.classList.toggle('strzalkaBlack');
+  
+  const element16 = document.querySelector('.strzalka2');
+  element16.classList.toggle('biMotyw');
+  
+  const element17 = document.querySelector('.second');
+  element17.classList.toggle('secondDiv');
 
-  const element10 = document.querySelector('.strzalka');
-  element10.classList.toggle('strzalkaBlack');
+  const element18 = document.querySelector('.fourth');
+  element18.classList.toggle('bg-dark');
 
-  const element11 = document.querySelector('.strzalka');
-  element11.classList.toggle('biMotyw');
+  const element19 = document.querySelector('.fourth');
+  element19.classList.toggle('text-light');
 
-  const element28 = document.querySelector('.strzalka2');
-  element28.classList.toggle('strzalkaBlack');
+  const element20 = document.querySelector('.karta1');
+  element20.classList.toggle('kartaLight');
+  
+  const element21 = document.querySelector('.karta1');
+  element21.classList.toggle('kartaDark');
 
-  const element27 = document.querySelector('.strzalka2');
-  element27.classList.toggle('biMotyw');
+  const element22 = document.querySelector('.karta2');
+  element22.classList.toggle('kartaLight');
 
-  const element12 = document.querySelector('.second');
-  element12.classList.toggle('secondDiv');
+  const element23 = document.querySelector('.karta2');
+  element23.classList.toggle('kartaDark');
 
-  const element13 = document.querySelector('.karta1');
-  element13.classList.toggle('kartaLight');
+  const element24 = document.querySelector('.karta3');
+  element24.classList.toggle('kartaLight');
 
-  const element14 = document.querySelector('.karta1');
-  element14.classList.toggle('kartaDark');
+  const element25 = document.querySelector('.karta3');
+  element25.classList.toggle('kartaDark');
 
-  const element17 = document.querySelector('.karta2');
-  element17.classList.toggle('kartaLight');
+  const element26 = document.querySelector('.karta4');
+  element26.classList.toggle('kartaLight');
 
-  const element18 = document.querySelector('.karta2');
-  element18.classList.toggle('kartaDark');
+  const element27 = document.querySelector('.karta4');
+  element27.classList.toggle('kartaDark');
 
-  const element19 = document.querySelector('.karta3');
-  element19.classList.toggle('kartaLight');
+  const element28 = document.querySelector('.projekty');
+  element28.classList.toggle('third');
 
-  const element20 = document.querySelector('.karta3');
-  element20.classList.toggle('kartaDark');
+  const element29 = document.querySelector('.projekty');
+  element29.classList.toggle('thirdDiv');
+  
+  const element30 = document.querySelector('.projekt1');
+  element30.classList.toggle('projektCiemny');
 
-  const element21 = document.querySelector('.karta4');
-  element21.classList.toggle('kartaLight');
+  const element31 = document.querySelector('.projekt2');
+  element31.classList.toggle('projektCiemny');
 
-  const element22 = document.querySelector('.karta4');
-  element22.classList.toggle('kartaDark');
+  const element32 = document.querySelector('.uno');
+  element32.classList.toggle('floating');
 
-  const element23 = document.querySelector('.mr');
-  element23.classList.toggle('text-light');
+  const element33 = document.querySelector('.dos');
+  element33.classList.toggle('floating');
 
-  const element24 = document.querySelector('.navi');
-  element24.classList.toggle('naviLight');
+  const element34 = document.querySelector('.tres');
+  element34.classList.toggle('floating');
 
-  const element25 = document.querySelector('.navi');
-  element25.classList.toggle('naviDark');
+  const element35 = document.querySelector('.quattro');
+  element35.classList.toggle('floating');
 
-  const element35 = document.querySelector('.projekty');
-  element35.classList.toggle('third');
+  const element36 = document.querySelector('.sinco');
+  element36.classList.toggle('floating');
 
-  const element26 = document.querySelector('.projekty');
-  element26.classList.toggle('thirdDiv');
+  const element37 = document.querySelector('.szesc');
+  element37.classList.toggle('floating');
 
-  const element29 = document.querySelector('.projekt1');
-  element29.classList.toggle('projektCiemny');
+  const element38 = document.querySelector('.siedem');
+  element38.classList.toggle('floating');
+  
+  const element39 = document.querySelector('.osiem');
+  element39.classList.toggle('floating');
 
-  const element36 = document.querySelector('.uno');
-  element36.classList.toggle('floating')
+  const element40 = document.querySelector('.raz');
+  element40.classList.toggle('floating');
 
-  const element30 = document.querySelector('.dos');
-  element30.classList.toggle('floating')
+  const element41 = document.querySelector('.dwa');
+  element41.classList.toggle('floating');
 
-  if(document.querySelector('.tres')==null){
-    console.log(".tres nie istnieje");
-  }else{
-    const element31 = document.querySelector('.tres');
-    element31.classList.toggle('floating')
-  }
+  const element42 = document.querySelector('.trzy');
+  element42.classList.toggle('floating');
+  
+  const element43 = document.querySelector('.cztery');
+  element43.classList.toggle('floating');
 
-  if(document.querySelector('.quattro')==null){
-    console.log(".quattro nie istnieje");
-  }else{
-    const element32 = document.querySelector('.quattro');
-    element32.classList.toggle('floating') 
-  }
+  const element44 = document.querySelector('.login');
+  element44.classList.toggle('bg-dark');
 
-  const element33 = document.querySelector('.login');
-  element33.classList.toggle('bg-dark');
+  const element45 = document.querySelector('.login');
+  element45.classList.toggle('text-light');
 
-  const element34 = document.querySelector('.login');
-  element34.classList.toggle('text-light');
+  const element46 = document.querySelector('.rejestr');
+  element46.classList.toggle('bg-dark');
+
+  const element47 = document.querySelector('.rejestr');
+  element47.classList.toggle('text-light');
 
 
 

@@ -204,6 +204,75 @@
 
 }
 
+@media only screen and (max-width: 1366px) {
+    /* ustawienie dla duzych laptopow */
+    #pierwszy{
+        height: 100%;
+        /* position: relative; */
+    }
+
+    #strzalka{
+        font-size: 2em;
+    }
+
+    #imie_nazwisko{
+        font-size: 7.35em;
+        margin-left: 28px;
+        /* position: absolute; */
+    }
+
+    #bio{
+        font-size: 1.3em;
+    }
+
+    #bioDiv{
+        font-size: 1em;
+    }
+
+    #zainteresowaniaLewy, #zainteresowaniaPrawy, #zainteresowania1, #zainteresowania2{
+        margin-left: 10px;
+        padding: 15px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        display:inline-block;
+
+    }
+
+    #zainteresowaniaLewy{
+        margin-left: 20px;
+    }
+
+    #zainteresowaniaPrawy{
+        margin-right: 20px;
+    }
+    
+    #projekt, #projekt2{
+        padding: 50px;
+        font-size: 1em;
+    }
+
+    #projekt2{
+        height: 95%;
+    }
+
+    #tytul{
+        font-size: 2em;
+    }
+
+    #temat{
+        font-size: 1em;
+    }
+
+    #tytul_projektu{
+        font-size: 1.2em;
+    }
+
+    #logowanie{
+        width: 100%;
+    }
+
+}
+
 @media only screen and (max-width: 1024px) {
     /* ustawienie dla malych laptopow */
     #tytul{

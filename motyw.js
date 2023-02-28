@@ -1,33 +1,12 @@
-// function check(checked = true) {
-//   const checkbox = document.querySelector('.motyw');
-//   checkbox.checked = checked;
-// }
-
-// const btn = document.querySelector('#btn');
-// btn.onclick = checkAll;
-
-// function checkAll() {
-//   check();
-//   this.onclick = uncheckAll;
-// }
-
-// function uncheckAll() {
-//   check(false);
-//   this.onclick = checkAll;
-// }
-
 const zmiana = document.querySelector('.motyw');
 zmiana.addEventListener('click', zmianaKlasy);
 
-localStorage.setItem("motyw", "jasny");
-
-// if(localStorage.getItem("motyw")=="ciemny"){
-//   zmiana.checked=true;
-//   zmianaKlasy();
-// }else{
-//   zmiana.checked=false;
-//   zmianaKlasy();
-// }
+if(localStorage.getItem("motyw")=="ciemny"){
+  zmiana.checked=true;
+  zmianaKlasy();
+}else{
+  zmiana.checked=false;
+}
 
 function zmianaKlasy(){
   const element = document.querySelector('.demo');
@@ -181,8 +160,19 @@ function zmianaKlasy(){
     localStorage.clear();
     localStorage.setItem("motyw", "jasny");
   }
-  // if(localStorage.getItem("motyw")=="ciemny"){
 
+  // if(localStorage.getItem("motyw")==null){
+  //   localStorage.clear();
+  //   localStorage.setItem("motyw", "ciemny");
+  // }else{
+  //   localStorage.clear();
+  //   localStorage.setItem("motyw", "jasny");
+  // }
+
+
+
+  // if(localStorage.getItem("motyw")=="ciemny"){
+  //   localStorage.clear();
   //   localStorage.setItem("motyw", "jasny");
   // }
   
